@@ -1,13 +1,17 @@
-// comandos para guardar en git 
-// git init : sirve para inicializar git
-//.gitignore : sirve para escribir dentro de el lo que queremos que ignore antes de grabar en git 
-// igt add . : es para que se selecione las capteras antes de querer grabar a git
+# comandos para guardar en pc
+git init : sirve para inicializar git
 
-//git commit -m "'agregar nombre'"  sirve para grabar en git las carpetas no ignoradas
-//git checkout -- .  sirve para regenerar alguna carpeta borrada (siempre y cuando antes se haya guardado en git)
+.gitignore : sirve para escribir dentro de el lo que queremos que ignore antes de grabar en git 
 
-//a los modulos de node nunca se los hace un backout
-// ni tampoco el producto de algun comando que se pueda hacer para reconstruirlo manualmente
+git add . : es para que se selecione las capteras antes de querer grabar a git
+
+git commit -m "'agregar nombre'"  sirve para grabar en git las carpetas no ignoradas
+
+git checkout -- .  sirve para regenerar alguna carpeta borrada (siempre y cuando antes se haya guardado en git)
+
+# comentario:
+a los modulos de node nunca se los hace un backout
+ni tampoco el producto de algun comando que se pueda hacer para reconstruirlo manualmente
 
 # notas:
 este es mi primer programa en node
