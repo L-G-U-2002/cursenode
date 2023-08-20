@@ -1,4 +1,5 @@
-# comandos para guardar en pc
+
+# comandos para guardar en git
 git init : sirve para inicializar git
 
 .gitignore : sirve para escribir dentro de el lo que queremos que ignore antes de grabar en git 
@@ -7,7 +8,11 @@ git add . : es para que se selecione las capteras antes de querer grabar a git
 
 git commit -m "'agregar nombre'"  sirve para grabar en git las carpetas no ignoradas
 
+git push : sirve para enviar tus archivos a tu cuenta de github 
+
 git checkout -- .  sirve para regenerar alguna carpeta borrada (siempre y cuando antes se haya guardado en git)
+
+
 
 # comentario:
 a los modulos de node nunca se los hace un backout
